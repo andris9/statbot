@@ -1,0 +1,28 @@
+{
+    "name": "statbot",
+    "description": "Create bots to gather statistics about web links",
+    "version": "0.1.0",
+    "author" : "Andris Reinman",
+    "maintainers":[
+        {
+            "name":"andris",
+            "email":"andris@node.ee"
+        }
+    ],
+    "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/andris9/statbot.git"
+    },
+    "main" : "./index",
+    "licenses" : [
+        {
+            "type": "MIT",
+            "url": "http://github.com/andris9/statbot/blob/master/LICENSE"
+        }
+    ],
+    "dependencies": {
+        "fetch": "*"
+    },
+    "engines": ["node >=0.6.0"],
+    "keywords": ["tor", "url"]
+}
